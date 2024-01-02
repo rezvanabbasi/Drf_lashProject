@@ -21,6 +21,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="develop" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
   </component>
@@ -57,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "develop",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/home/rezvan/django-projects/LashCenter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -131,7 +136,7 @@
       <workItem from="1704022181092" duration="2162000" />
       <workItem from="1704085638636" duration="7699000" />
       <workItem from="1704173071990" duration="2821000" />
-      <workItem from="1704176394435" duration="6766000" />
+      <workItem from="1704176394435" duration="7522000" />
     </task>
     <servers />
   </component>
