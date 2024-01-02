@@ -45,7 +45,9 @@
   &quot;associatedIndex&quot;: 0
 }</component>
   <component name="ProjectId" id="2a79RC2YT3ck128t73TQoFvugiP" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -55,7 +57,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
+    "git-widget-placeholder": "develop",
     "last_opened_file_path": "/home/rezvan/django-projects/LashCenter",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -129,7 +131,7 @@
       <workItem from="1704022181092" duration="2162000" />
       <workItem from="1704085638636" duration="7699000" />
       <workItem from="1704173071990" duration="2821000" />
-      <workItem from="1704176394435" duration="1747000" />
+      <workItem from="1704176394435" duration="6766000" />
     </task>
     <servers />
   </component>

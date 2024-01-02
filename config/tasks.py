@@ -1,9 +1,8 @@
-from kavenegar import *
-import os
-
-API_KEY = os.getenv('API_KEY')
+from utils import *
+from config.celery import app
 
 
+@app.task
 def kave_negar_token_send(receptor, token):
     try:
         api = KavenegarAPI(API_KEY)

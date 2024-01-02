@@ -14,7 +14,7 @@ from apps.users.serializers import (
 )
 
 import random
-from utils import kave_negar_token_send
+from config.tasks import kave_negar_token_send
 from apps.users.models import OtpCode
 
 
@@ -68,7 +68,7 @@ class ForgetPasswordApiView(APIView):
         serializer = ForgetPasswordSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         random_code = random.randint(1000, 9999)
-        kave_negar_token_send(
+        kave_negar_token_send.delay(
             receptor=request.data['mobile'],
             token=random_code
         )
