@@ -2,7 +2,12 @@ from django.db import models
 from apps.users.models import Profile
 
 
-class PrivateCourse(models.Model):
+class CourseType(models.Model):
+    title = models.CharField(max_length=100),
+    description = models.TextField(max_length=300)
+
+
+class Course(models.Model):
     title = models.CharField(max_length=300, default='اکستنشن مژه')
     teacher = models.ForeignKey(
         Profile,
@@ -20,6 +25,5 @@ class PrivateCourse(models.Model):
     course_sessions = models.IntegerField(default=5)  # Number of course sessions
     course_start_date = models.DateTimeField(auto_now_add=True)  # Time and date of course holding
     course_duration = models.TimeField(null=True)
-    finished = models.BooleanField(default=False)
+    is_available = models.BooleanField(default=False)
     comment = models.TextField(max_length=300, null=True)
-

@@ -5,7 +5,7 @@ from rest_framework.views import APIView
 from rest_framework import viewsets
 
 from apps.services.models import LashService, ReserveService
-from apps.services.permissions import IsAdminOrStaffPermission
+from config.settings.permissions import IsAdminOrStaffPermission
 from apps.services.serializerz import (
     LashServiceSerializer,
     ReserveServiceSerializer,

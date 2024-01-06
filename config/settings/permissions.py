@@ -11,3 +11,12 @@ class IsAdminOrStaffPermission(permissions.BasePermission):
         if profile.user_type.title != 'پرسنل':
             raise PermissionDenied('You are not staff!')
         return True
+
+
+class IsTeacherPermission(permissions.BasePermission):
+
+    def has_permission(self, request, view):
+        profile = Profile.objects.get(user_id=request.user.id)
+        if profile.user_type.title != 'مربی':
+            raise PermissionDenied('You are not teacher!')
+        return True
