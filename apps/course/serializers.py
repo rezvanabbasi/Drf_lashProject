@@ -1,6 +1,7 @@
 from rest_framework import serializers
 
-from apps.course.models import CourseType, Course
+from apps.course.models import CourseType, Course, CourseReservation
+from apps.users.serializers import ProfileSerializer
 
 
 class CourseTypeSerializer(serializers.ModelSerializer):
@@ -13,9 +14,15 @@ class CourseTypeSerializer(serializers.ModelSerializer):
 
 
 class CourseSerializer(serializers.ModelSerializer):
+    teacher = ProfileSerializer
+
     class Meta:
         model = Course
         fields = '__all__'
 
-    def create(self, validated_data):
-        return Course.objects.create(**validated_data)
+
+class CourseReservationSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = CourseReservation
+        fields = '__all__'
+

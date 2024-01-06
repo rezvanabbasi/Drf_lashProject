@@ -5,24 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create course app">
-      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0002_remove_course_is_finished_course_is_available.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0021_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0022_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0023_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/settings/permissions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0003_course_course_capacity.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0004_remove_course_student_coursereservation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0024_alter_profile_uuid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0025_alter_profile_uuid.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0026_alter_profile_uuid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/api.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/services/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/services/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/services/permissions.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/permissions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,6 +42,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="ROOT_SYNC" value="SYNC" />
+    <option name="SHOW_RECENT_BRANCHES" value="false" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -158,7 +154,9 @@
       <workItem from="1704173071990" duration="2821000" />
       <workItem from="1704176394435" duration="7522000" />
       <workItem from="1704196197341" duration="2925000" />
-      <workItem from="1704520298819" duration="5054000" />
+      <workItem from="1704520298819" duration="6674000" />
+      <workItem from="1704530412914" duration="3000" />
+      <workItem from="1704539225794" duration="4410000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
