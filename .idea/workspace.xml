@@ -4,20 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create course app">
-      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0003_course_course_capacity.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/course/migrations/0004_remove_course_student_coursereservation.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0024_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0025_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0026_alter_profile_uuid.py" afterDir="false" />
+    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="complete course app">
+      <change afterPath="$PROJECT_DIR$/apps/home/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/api/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/api/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/api/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/serializers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/home/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/apps.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/serializers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings/permissions.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/permissions.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +97,7 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/config" />
       <recent name="$PROJECT_DIR$/config/" />
       <recent name="$PROJECT_DIR$/" />
     </key>
@@ -156,7 +159,10 @@
       <workItem from="1704196197341" duration="2925000" />
       <workItem from="1704520298819" duration="6674000" />
       <workItem from="1704530412914" duration="3000" />
-      <workItem from="1704539225794" duration="4410000" />
+      <workItem from="1704539225794" duration="5786000" />
+      <workItem from="1704606175243" duration="7356000" />
+      <workItem from="1704623281036" duration="1129000" />
+      <workItem from="1704624422461" duration="4000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
@@ -166,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704197323931</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="complete course app">
+      <option name="closed" value="true" />
+      <created>1704544576758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1704544576758</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +204,7 @@
       <path value="$PROJECT_DIR$/LashCenter" />
     </ignored-roots>
     <MESSAGE value="create course app" />
-    <option name="LAST_COMMIT_MESSAGE" value="create course app" />
+    <MESSAGE value="complete course app" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete course app" />
   </component>
 </project>

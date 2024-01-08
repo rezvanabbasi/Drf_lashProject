@@ -1,3 +1,5 @@
+import requests
+from rest_framework.authtoken.models import Token
 from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework.views import APIView
@@ -41,8 +43,7 @@ class CourseApiView(APIView):
         return Response(data={"Create Course"}, status=status.HTTP_200_OK)
 
     def get(self):
-        queryset = Course.objects.all()
-        serializer = CourseSerializer(data=queryset, many=True)
+        serializer = CourseSerializer(data=Course.objects.all(), many=True)
         serializer.is_valid(raise_exception=True)
         return Response(data=serializer.data, status=status.HTTP_200_OK)
 
@@ -62,8 +63,19 @@ class CourseReservationApiView(APIView):
         reserve.save()
         return Response(data={"You reserve this course"}, status=status.HTTP_200_OK)
 
-    def get(self):
+    def get(self, request, format=None):
         """
         return all courses  reserved by this user who authenticated.
         """
-        pass
+
+        # user_id = request.user.id
+        # profile = Profile.objects.get(user_id=user_id)
+        # reserve_course = CourseReservation.objects.filter(student_id=profile.id).filter()
+
+        serializer = CourseReservationSerializer(
+            data=CourseReservation.objects.all(),
+            many=True
+        )
+        serializer.is_valid(raise_exception=True)
+
+        return Response(data=serializer.data, status=status.HTTP_200_OK)

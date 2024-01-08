@@ -22,6 +22,8 @@ class CourseSerializer(serializers.ModelSerializer):
 
 
 class CourseReservationSerializer(serializers.ModelSerializer):
+    course = CourseSerializer()
+    student = ProfileSerializer()
     class Meta:
         model = CourseReservation
         fields = '__all__'
