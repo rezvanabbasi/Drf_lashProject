@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="complete course app">
-      <change afterPath="$PROJECT_DIR$/apps/home/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/api/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/api/api.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/api/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/serializers.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/home/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" afterDir="false" />
+    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/api/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/apps.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/apps.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/course/serializers.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/serializers.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,6 +149,7 @@
       <workItem from="1704606175243" duration="7356000" />
       <workItem from="1704623281036" duration="1129000" />
       <workItem from="1704624422461" duration="4000" />
+      <workItem from="1704696301217" duration="664000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
@@ -180,7 +167,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704544576758</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="create home app">
+      <option name="closed" value="true" />
+      <created>1704696524476</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1704696524476</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -205,6 +200,7 @@
     </ignored-roots>
     <MESSAGE value="create course app" />
     <MESSAGE value="complete course app" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete course app" />
+    <MESSAGE value="create home app" />
+    <option name="LAST_COMMIT_MESSAGE" value="create home app" />
   </component>
 </project>
