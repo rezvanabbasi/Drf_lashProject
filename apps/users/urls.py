@@ -1,3 +1,3 @@
-from .api.urls import urlpatterns
+from apps.users.api.v1.urls import urlpatterns
 
 urlpatterns = [] + urlpatterns

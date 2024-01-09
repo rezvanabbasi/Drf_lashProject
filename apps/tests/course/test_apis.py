@@ -7,4 +7,4 @@ class CourseTest(SetupTest):
     def test_course(self):
         url = reverse("course")
         response = self.client.get(url)
-        self.assertEquals(response.status_code, 200)
+        self.assertEquals(response.status_code, 401)

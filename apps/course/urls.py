@@ -1,3 +1,3 @@
-from apps.course.api.urls import urlpatterns as u
+from apps.course.api.v1.urls import urlpatterns as u
 
 urlpatterns = [] + u

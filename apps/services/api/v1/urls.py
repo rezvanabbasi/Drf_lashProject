@@ -1,6 +1,6 @@
 from django.urls import path
 
-from apps.services.api.api import (
+from apps.services.api.v1.api import (
     LashServiceCreateApiView,
     ReserveServiceApiView,
     LashServiceDeleteUpdateViewSet

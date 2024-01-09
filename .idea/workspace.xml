@@ -4,7 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app" />
+    <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -148,7 +153,8 @@
       <workItem from="1704623281036" duration="1129000" />
       <workItem from="1704624422461" duration="4000" />
       <workItem from="1704696301217" duration="4488000" />
-      <workItem from="1704780501085" duration="6016000" />
+      <workItem from="1704780501085" duration="7331000" />
+      <workItem from="1704801541527" duration="315000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />

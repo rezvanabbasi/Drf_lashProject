@@ -1,4 +1,4 @@
-from apps.services.api.urls import urlpatterns as pattern
+from apps.services.api.v1.urls import urlpatterns as pattern
 
 urlpatterns = [] + pattern
 

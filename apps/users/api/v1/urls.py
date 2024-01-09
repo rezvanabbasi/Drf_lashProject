@@ -1,6 +1,6 @@
 from django.urls import path
 
-from apps.users.api.api import (
+from apps.users.api.v1.api import (
     SetTypeApiView,
     RegisterApiView,
     LoginApiView,

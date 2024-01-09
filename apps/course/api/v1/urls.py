@@ -1,6 +1,6 @@
 from django.urls import path
 
-from apps.course.api.api import CourseTypeApiView, CourseApiView, CourseReservationApiView
+from apps.course.api.v1.api import CourseTypeApiView, CourseApiView, CourseReservationApiView
 
 urlpatterns = [
     path('course-type/', CourseTypeApiView.as_view(), name='course-type'),
