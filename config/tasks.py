@@ -16,3 +16,8 @@ def kave_negar_token_send(receptor, token):
         raise Exception(e)
     except HTTPException as e:
         raise Exception(e)
+
+
+# @app.tasks
+# def test_task():
+#     return 'Test task'

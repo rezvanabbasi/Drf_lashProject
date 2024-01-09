@@ -43,6 +43,7 @@ INSTALLED_APPS = [
     'apps.services',
     'apps.course',
     'apps.home',
+    'apps.tests',
     'storages',
 ]
 

@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app">
+      <change afterPath="$PROJECT_DIR$/apps/tests/course/test_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/course/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/course/test_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/course/test_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/home/test_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/home/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/home/test_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/home/test_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/services/test_apis.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/services/test_models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/services/test_setup.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/services/test_urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/tests/test_settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/media/runtests.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/api/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/tasks.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/tasks.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +168,8 @@
       <workItem from="1704606175243" duration="7356000" />
       <workItem from="1704623281036" duration="1129000" />
       <workItem from="1704624422461" duration="4000" />
-      <workItem from="1704696301217" duration="664000" />
+      <workItem from="1704696301217" duration="4488000" />
+      <workItem from="1704780501085" duration="5666000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />

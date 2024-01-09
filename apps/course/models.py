@@ -22,6 +22,9 @@ class Course(models.Model):
     is_available = models.BooleanField(default=False)
     comment = models.TextField(max_length=300, null=True)
 
+    def __str__(self):
+        return self.title
+
 
 class CourseReservation(models.Model):
     course = models.ForeignKey(
