@@ -13,8 +13,8 @@ class LashService(models.Model):
     image = models.ImageField(null=True)
     title = models.CharField(max_length=300)
     material = models.TextField(max_length=300)
-    price = models.IntegerField()
-    duration = models.TimeField()
+    price = models.IntegerField(null=True)
+    duration = models.TimeField(null=True)
     date = models.DateField(null=True)
     is_available = models.BooleanField(default=True)
 

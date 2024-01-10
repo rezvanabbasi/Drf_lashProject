@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/apps/services/migrations/0006_alter_lashservice_duration_alter_lashservice_price.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0028_alter_profile_uuid.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/api/v1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/api/v1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/services/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/services/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/tests/course/test_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_apis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/home/test_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/home/test_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/home/test_setup.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/home/test_urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/home/test_urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/services/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/services/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/services/test_setup.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,9 +96,11 @@
 }</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/config" />
-      <recent name="$PROJECT_DIR$/config/" />
-      <recent name="$PROJECT_DIR$/" />
+      <recent name="$PROJECT_DIR$/apps/users/api/v1" />
+      <recent name="$PROJECT_DIR$/apps/services/api/v1" />
+      <recent name="$PROJECT_DIR$/apps/home/api/v1" />
+      <recent name="$PROJECT_DIR$/apps/course/api/v1" />
+      <recent name="$PROJECT_DIR$/apps/api/v1" />
     </key>
   </component>
   <component name="RunManager">
@@ -154,7 +166,8 @@
       <workItem from="1704624422461" duration="4000" />
       <workItem from="1704696301217" duration="4488000" />
       <workItem from="1704780501085" duration="7331000" />
-      <workItem from="1704801541527" duration="315000" />
+      <workItem from="1704801541527" duration="4654000" />
+      <workItem from="1704889428440" duration="2959000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
