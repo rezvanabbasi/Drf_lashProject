@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="lashcenter" uuid="d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b">
+    <data-source source="LOCAL" name="newlash" uuid="c34e2afe-a653-41f3-a5cc-56197969c440">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/lashcenter</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/newlash</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

@@ -38,8 +38,8 @@ class Profile(models.Model):
 
     uuid = models.CharField(_("uid"), max_length=300, default=uuid.uuid4())
 
-    # def __str__(self):
-    #     return self
+    def __str__(self):
+        return self.email
 
     def change_password(self, new_password):
         self.password = new_password
