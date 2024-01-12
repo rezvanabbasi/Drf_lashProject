@@ -16,5 +16,5 @@ urlpatterns = [
               }
          ),
          name='delete-update-service'),
-    path('reserve/', ReserveServiceApiView.as_view(), name='service'),
+    path('reserve/', ReserveServiceApiView.as_view(), name='reserve-service'),
 ]

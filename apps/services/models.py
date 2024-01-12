@@ -19,7 +19,7 @@ class LashService(models.Model):
     is_available = models.BooleanField(default=True)
 
     def __str__(self):
-        return f'{self.title} - {self.staff.full_name} - {self.price}'
+        return self.title
 
 
 class ReserveService(models.Model):
@@ -39,4 +39,4 @@ class ReserveService(models.Model):
     comment = models.TextField(max_length=300, blank=True, null=True)
 
     def __str__(self):
-        return f'{self.service.title} - {self.customer.full_name}'
+        return self.comment
