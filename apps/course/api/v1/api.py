@@ -18,7 +18,7 @@ class CourseTypeApiView(APIView):
         serializer = CourseTypeSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
         serializer.save()
-        return Response(data=serializer.data, status=status.HTTP_200_OK)
+        return Response(data=serializer.data, status=status.HTTP_201_CREATED)
 
 
 class CourseApiView(APIView):
@@ -40,7 +40,7 @@ class CourseApiView(APIView):
         )
         course.save()
 
-        return Response(data={"Create Course"}, status=status.HTTP_200_OK)
+        return Response(data={"Create Course"}, status=status.HTTP_201_CREATED)
 
     def get(self):
         serializer = CourseSerializer(data=Course.objects.all(), many=True)
