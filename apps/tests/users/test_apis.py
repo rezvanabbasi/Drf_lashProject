@@ -4,7 +4,7 @@ from .test_setup import SetupTest
 class UserTypeTest(SetupTest):
     def setUp(self):
         self.type_data = {
-            "title": "مربی",
+            "title": "tester",
             "description": "this is test"
         }
         return super().setUp()
@@ -29,9 +29,13 @@ class RegisterTest(SetupTest):
 
         return super().setUp()
 
-    def test_register_valid(self):
+    def test_correct_register(self):
         response = self.client.post(self.register_url, self.register_data)
         self.assertEquals(response.status_code, 201)
+
+    def test_wrong_register(self):
+        response = self.client.post(self.register_url, {"username": ""})
+        self.assertFalse(response.status_code, 400)
 
 
 class Login(SetupTest):
