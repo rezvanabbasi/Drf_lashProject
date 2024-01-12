@@ -12,12 +12,12 @@ class SetupTest(APITestCase):
     def setUp(self):
         self.factory = APIRequestFactory()
         # views
-        self.service_url = reverse('service')
+        self.lash_service_url = reverse('service')
         self.delete_update_service_url = reverse('delete-update-service')
         self.reserve_service_url = reverse('reserve-service')
 
         # create service
-        self.service = LashService.objects.create(
+        self.lash_service = LashService.objects.create(
             title="test",
             material="test material"
         )
