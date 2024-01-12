@@ -5,9 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tests/users/test_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/users/test_apis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tests/users/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/users/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/course/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/course/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_setup.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,7 +159,7 @@
       <workItem from="1704889428440" duration="4469000" />
       <workItem from="1704947985330" duration="10956000" />
       <workItem from="1704977599981" duration="2786000" />
-      <workItem from="1705039447488" duration="6245000" />
+      <workItem from="1705039447488" duration="8253000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />

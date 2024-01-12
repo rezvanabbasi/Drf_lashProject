@@ -1,18 +1,14 @@
-from apps.course.models import Course
-
-from django.test import TestCase
+from .test_setup import SetupTest
 
 
-class CourseTest(TestCase):
+class CourseTest(SetupTest):
+    def test_course_type(self):
+        self.assertEquals(str(self.course_type), self.course_type.title)
 
-    def setUp(self):
-        Course.objects.create(
-            title="اکستنشن مژه تست",
-            teacher_id='1',
-            course_capacity=4,
-            course_sessions=5,
-        )
+    def test_course(self):
+        self.assertEquals(str(self.course), self.course.title)
 
-    def teacher_id_test(self):
-        course = Course.objects.get(title='اکستنشن مژه تست')
-        self.assertEquals(course.teacher_id, 1)
+    def test_course_reservation(self):
+        self.assertEquals(str(self.course_reservation), self.course_reservation.reserve_date)
+
+
