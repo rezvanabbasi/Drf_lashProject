@@ -5,25 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app">
-      <change afterPath="$PROJECT_DIR$/apps/tests/course/test_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tests/users/test_apis.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tests/users/test_models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/tests/users/test_setup.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0029_alter_profile_uuid.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/users/migrations/0030_alter_profile_uuid.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/d5ec23cf-24aa-4029-a3f9-0d4bfa43d56b/storage_v2/_src_/database/lashcenter.X89LEw/schema/public.abK9xQ.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tests/course/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/course/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/tests/services/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/services/test_models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/settings/base.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings/base.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/users/test_apis.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/users/test_apis.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/tests/users/test_models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/tests/users/test_models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -174,7 +158,8 @@
       <workItem from="1704801541527" duration="4654000" />
       <workItem from="1704889428440" duration="4469000" />
       <workItem from="1704947985330" duration="10956000" />
-      <workItem from="1704977599981" duration="1854000" />
+      <workItem from="1704977599981" duration="2786000" />
+      <workItem from="1705039447488" duration="6245000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
