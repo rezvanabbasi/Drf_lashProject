@@ -7,8 +7,8 @@ from apps.home.serializers import HomeSerializer
 from apps.services.models import LashService
 
 
-class HomeApiView(APIView):
-    def get(self):
+class HomePageApiView(APIView):
+    def get(self, *args, **kwargs):
         services = LashService.objects.all()
         course = Course.objects.all()
 

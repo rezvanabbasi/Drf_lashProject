@@ -1,7 +1,7 @@
 from django.urls import path
 
-from apps.home.api.v1.api import HomeApiView
+from apps.home.api.v1.api import HomePageApiView
 
 urlpatterns = [
-    path('home/', HomeApiView(), name='home')
+    path('home-page/', HomePageApiView.as_view(), name='home-page')
 ]

@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ee0326a6-fb24-40bb-a74f-5c6982216191" name="Changes" comment="create home app">
-      <change afterPath="$PROJECT_DIR$/apps/tests/home/test_setup.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/api/v1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/api/v1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/home/api/v1/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/home/api/v1/api.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/home/api/v1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/home/api/v1/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -159,6 +162,7 @@
       <workItem from="1704977599981" duration="2786000" />
       <workItem from="1705039447488" duration="8253000" />
       <workItem from="1705048106388" duration="3226000" />
+      <workItem from="1705055703118" duration="1515000" />
     </task>
     <task id="LOCAL-00001" summary="create course app">
       <option name="closed" value="true" />
