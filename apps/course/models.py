@@ -3,11 +3,18 @@ from apps.users.models import Profile
 
 
 class CourseType(models.Model):
+    """
+    Stores a single type of educational lash course
+    """
     title = models.CharField(max_length=100),
     description = models.TextField(max_length=300)
 
 
 class Course(models.Model):
+    """
+    Stores a single educational lash course,
+    related to :model :'users.Profile'
+    """
     title = models.CharField(max_length=300, default='اکستنشن مژه')
     teacher = models.ForeignKey(
         Profile,
@@ -27,6 +34,12 @@ class Course(models.Model):
 
 
 class CourseReservation(models.Model):
+    """
+    To reserve a course by student,
+    related to :
+    model :'course.Course' and
+    model :'users.Profile'
+    """
     course = models.ForeignKey(
         Course,
         on_delete=models.CASCADE,

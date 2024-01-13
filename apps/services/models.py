@@ -4,6 +4,10 @@ from apps.users.models import Profile
 
 
 class LashService(models.Model):
+    """
+    Created a single lash service like lash extension or ...,
+    related to : model:'users.Profile'
+    """
     staff = models.ForeignKey(
         Profile,
         related_name='lash_service',
@@ -23,6 +27,12 @@ class LashService(models.Model):
 
 
 class ReserveService(models.Model):
+    """
+    To reserve a single lash service by customer,
+    related to :
+    model : 'service.LashService',
+    model : 'users.Profile'
+    """
     service = models.ForeignKey(
         LashService,
         on_delete=models.CASCADE,

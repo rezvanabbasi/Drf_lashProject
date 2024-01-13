@@ -1,10 +1,15 @@
 import uuid
-from django.contrib.auth.models import AbstractBaseUser, User
+from django.contrib.auth.models import User
 from django.db import models
 from django.utils.translation import gettext_lazy as _
 
 
 class UserType(models.Model):
+    """
+    Saved single type of user,
+    user in this app may be teacher or customer or client,...
+    this model's instance just created by manager.
+    """
     title = models.CharField(max_length=10, default='زیباجو')
     description = models.TextField(max_length=300)
 
@@ -13,6 +18,11 @@ class UserType(models.Model):
 
 
 class Profile(models.Model):
+    """
+    Saved single user's profile,
+    when user registration create this model's instance.
+    related model : 'auth.model.User'
+    """
     user = models.ForeignKey(
         User,
         on_delete=models.CASCADE,
@@ -56,6 +66,9 @@ class Profile(models.Model):
 
 
 class OtpCode(models.Model):
+    """
+    Saved a random code for send to user how forget this information
+    """
     mobile = models.CharField(max_length=11)
     code = models.IntegerField()
     created = models.DateTimeField(auto_now_add=True)
