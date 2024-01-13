@@ -12,6 +12,9 @@ from config.permissions import IsTeacherPermission, IsLearnerPermission
 
 
 class CourseTypeApiView(APIView):
+    """
+    Create a course type :model :'course.CourseType'.
+    """
     permission_classes = (IsAuthenticated, IsTeacherPermission)
 
     def post(self, request):
@@ -22,6 +25,9 @@ class CourseTypeApiView(APIView):
 
 
 class CourseApiView(APIView):
+    """
+    Create a course and get all courses to display
+    """
     permission_classes = (IsAuthenticated, IsTeacherPermission)
 
     def post(self, request):
@@ -49,6 +55,9 @@ class CourseApiView(APIView):
 
 
 class CourseReservationApiView(APIView):
+    """
+    To reserve a course by user and display all of class reservation.
+    """
     permission_classes = (IsAuthenticated, IsLearnerPermission)
 
     def post(self, request):

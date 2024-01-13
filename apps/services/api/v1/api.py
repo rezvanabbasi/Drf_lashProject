@@ -16,6 +16,9 @@ from apps.users.models import Profile
 
 
 class LashServiceCreateApiView(APIView):
+    """
+    Create lash service by manager.
+    """
     permission_classes = [IsAuthenticated, IsAdminOrStaffPermission]
 
     def post(self, request):
@@ -34,6 +37,12 @@ class LashServiceCreateApiView(APIView):
 
 
 class LashServiceDeleteUpdateViewSet(viewsets.ModelViewSet):
+    """
+    Delete and update lash service for both of
+     authenticated and admin user.
+    When use 'delete' http method do destroy,
+    When use 'put' http method do update.
+    """
     serializer_class = LashServiceDeleteUpdateSerializer
     queryset = LashService.objects.all()
     permission_classes = (IsAuthenticated, IsAdminOrStaffPermission)
@@ -66,6 +75,11 @@ class LashServiceDeleteUpdateViewSet(viewsets.ModelViewSet):
 
 
 class ReserveServiceApiView(APIView):
+    """
+    By use post http method reserve a lash service,
+
+    By use get http method show all of service reservation.
+    """
     permission_classes = [IsAuthenticated]
 
     def post(self, request):

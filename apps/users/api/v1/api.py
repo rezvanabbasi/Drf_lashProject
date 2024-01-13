@@ -19,7 +19,11 @@ from apps.users.models import OtpCode
 
 
 class SetTypeApiView(APIView):
+    """
+    When use POST http method create instance of model: 'users.UserType'
 
+    When use GET http method show all instance of model: 'user.UserType'
+    """
     def post(self, request):
         serializer = UserTypeSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
@@ -36,7 +40,9 @@ class SetTypeApiView(APIView):
 
 
 class RegisterApiView(APIView):
-
+    """
+    Register a user by POST http method and return user token.
+    """
     def post(self, request, *args, **kwargs):
         serializer = RegisterSerializer(data=request.data)
         serializer.is_valid(raise_exception=True)
@@ -49,6 +55,9 @@ class RegisterApiView(APIView):
 
 
 class LoginApiView(APIView):
+    """
+    It identifies the user with username and password, and logs her in.
+    """
 
     def post(self, request):
         serializer = LoginSerializer(data=self.request.data)
@@ -63,6 +72,9 @@ class LoginApiView(APIView):
 
 
 class ForgetPasswordApiView(APIView):
+    """
+    Get mobile from POST http method and send random code to user.
+    """
 
     def post(self, request, *args, **kwargs):
         serializer = ForgetPasswordSerializer(data=request.data)
@@ -87,6 +99,9 @@ class ForgetPasswordApiView(APIView):
 
 
 class ConfirmPasswordApiView(APIView):
+    """
+    Create new password with random code send to user.
+    """
 
     def post(self, request):
         serializer = ConfirmVerificationCode(data=request.data)

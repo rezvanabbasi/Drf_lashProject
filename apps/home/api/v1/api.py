@@ -8,6 +8,9 @@ from apps.services.models import LashService
 
 
 class HomePageApiView(APIView):
+    """
+    Display all services and all courser for this department.
+    """
     def get(self, *args, **kwargs):
         services = LashService.objects.all()
         course = Course.objects.all()
