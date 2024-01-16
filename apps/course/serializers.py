@@ -5,12 +5,14 @@ from apps.users.serializers import ProfileSerializer
 
 
 class CourseTypeSerializer(serializers.ModelSerializer):
+    """
+    Serialize date from course.api.CourseTypeApiView.
+    """
+
     class Meta:
         model = CourseType
         fields = '__all__'
 
-    def create(self, validated_data):
-        return CourseType.objects.create(**validated_data)
 
 
 class CourseSerializer(serializers.ModelSerializer):
@@ -24,7 +26,7 @@ class CourseSerializer(serializers.ModelSerializer):
 class CourseReservationSerializer(serializers.ModelSerializer):
     course = CourseSerializer()
     student = ProfileSerializer()
+
     class Meta:
         model = CourseReservation
         fields = '__all__'
-

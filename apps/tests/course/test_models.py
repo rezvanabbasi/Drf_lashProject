@@ -10,5 +10,3 @@ class CourseTest(SetupTest):
 
     def test_course_reservation(self):
         self.assertEquals(str(self.course_reservation), self.course_reservation.reserve_date)
-
-
